@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerViewPager">
+        <attr name="indicate_margin" format="dimension"/>
+        <attr name="indicate_margin_top" format="dimension"/>
+        <attr name="indicate_margin_bottom" format="dimension"/>
+        <attr name="indicate_margin_left" format="dimension"/>
+        <attr name="indicate_margin_right" format="dimension"/>
+        <attr name="indicate_padding" format="dimension"/>
+        <attr name="indicate_padding_top" format="dimension"/>
+        <attr name="indicate_padding_bottom" format="dimension"/>
+        <attr name="indicate_padding_left" format="dimension"/>
+        <attr name="indicate_padding_right" format="dimension"/>
+        <!--IndicateView的背景-->
+        <attr name="indicate_background" format="reference|color"/>
+        <!--IndicateView的背景颜色，该属性和Indicate背景透明度属性可以同时设置
+        ，但是这两个属性效果的实现前提是indicate_background属性为null,如果indicate_background
+        属性不为null,以indicate_background为准-->
+        <attr name="indicate_background_color" format="color"/>
+        <!--IndicateView的背景透明度，数值在0~255之间，0为全透明，255完全不透明。
+        ，该属性和Indicate背景颜色属性可以同时设置
+        ，但是这两个属性效果的实现前提是indicate_background属性为null,如果indicate_background
+        属性不为null,以indicate_background为准-->
+        <attr name="indicate_background_alpha" format="integer"/>
+        <!--IndicateView在BannerViewPager控件中的位置-->
+        <attr name="indicate_layout_gravity" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+        <!--IndicateView自身的gravity控制-->
+        <attr name="indicate_gravity" format="enum">
+            <!--居于底部并且水平居中-->
+            <enum name="bottom" value="1"/>
+            <!--居于父容器中心-->
+            <enum name="center" value="0"/>
+            <!--居于顶部并且水平居中-->
+            <enum name="top" value="2"/>
+        </attr>
+        <!--轮播的间隔时间，毫秒。设置为<=0的数时，视为无效轮播，不会执行轮播效果。默认值为0-->
+        <attr name="banner_interval" format="integer"/>
+        <!--轮播起始的延迟时间，默认和轮播时间间隔banner_interval的值相同-->
+        <attr name="banner_start_delay" format="integer"/>
+        <!--轮播的平滑过渡动画是否开启，默认为true-->
+        <attr name="banner_enable_smooth_scroll" format="boolean"/>
+        <!--平滑过渡动画的持续时间-->
+        <attr name="banner_smooth_scroll_duration" format="integer"/>
+    </declare-styleable>
+</resources>

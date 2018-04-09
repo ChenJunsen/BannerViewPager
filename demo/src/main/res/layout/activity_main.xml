@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:banner="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cjs.android.bannerviewpager.MainActivity">
+
+    <com.cjs.android.bannerviewpager.BannerViewPager
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        banner:banner_interval="3300"
+        banner:banner_enable_smooth_scroll="true"
+        banner:indicate_background="@drawable/shape_gray1"
+        banner:indicate_margin_bottom="10dp"/>
+
+</LinearLayout>

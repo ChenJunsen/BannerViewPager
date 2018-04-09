@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>id
+    <!--BannerViewPager控件的内置ViewPager的静态id-->
+    <item name="id_banner_view_pager" type="id"/>
+</resources>
