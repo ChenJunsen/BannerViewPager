@@ -1,4 +1,4 @@
-package com.cjs.android.bannerviewpager;
+package com.cjs.widget.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.cjs.android.bannerviewpager", appContext.getPackageName());
+        assertEquals("com.cjs.widget.demo", appContext.getPackageName());
     }
 }

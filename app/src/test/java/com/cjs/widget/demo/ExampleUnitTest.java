@@ -1,4 +1,4 @@
-package com.cjs.android.bannerviewpager;
+package com.cjs.widget.demo;
 
 import org.junit.Test;
 

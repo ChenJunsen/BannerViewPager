@@ -1,10 +1,11 @@
-package com.cjs.android.bannerviewpager;
+package com.cjs.widget.demo;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
+import com.cjs.android.bannerviewpager.BannerViewPager;
 import com.cjs.android.bannerviewpager.adapter.LoopImageResPagerAdapter;
 import com.cjs.android.bannerviewpager.indicateview.DotIndicator;
 import com.cjs.android.bannerviewpager.util.DimensionUtil;

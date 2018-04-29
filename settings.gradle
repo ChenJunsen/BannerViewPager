@@ -1,1 +1,1 @@
-include ':demo', ':bannerviewpager'
+include ':bannerviewpager', ':app'

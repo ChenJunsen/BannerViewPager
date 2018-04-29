@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BannerViewPager.iml" filepath="$PROJECT_DIR$/BannerViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\WorkSpace\AndroidStudio2\BannerViewPager\demo\app.iml" filepath="D:\WorkSpace\AndroidStudio2\BannerViewPager\demo\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bannerviewpager/bannerviewpager.iml" filepath="$PROJECT_DIR$/bannerviewpager/bannerviewpager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/app.iml" filepath="$PROJECT_DIR$/demo/app.iml" />
     </modules>
   </component>
 </project>
